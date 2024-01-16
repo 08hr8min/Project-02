@@ -1,0 +1,219 @@
+Body {
+    Font-family: ‘Arial’, sans-serif;
+    Background-color: #f0f5f5;
+    Margin: 0;
+    Padding: 0;
+}
+
+.navbar {
+    Background-color: #3498db;
+    Padding: 15px;
+}
+
+.navbar-brand {
+    Color: #fff;
+    Font-size: 24px;
+    Font-weight: bold;
+}
+
+.navbar-nav {
+    Margin-left: auto;
+}
+
+.navbar-nav a {
+    Color: #fff;
+    Margin-right: 15px;
+}
+
+.jumbotron {
+    Background-color: #3498db;
+    Color: #fff;
+    Padding: 100px 0;
+    Text-align: center;
+    Margin-bottom: 0;
+}
+
+.container {
+    Background-color: #fff;
+    Padding: 50px;
+    Border-radius: 0px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    Border: none;
+    Border-radius: 15px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    Margin-bottom: 20px;
+}
+
+.card-img-top {
+    Border-top-left-radius: 15px;
+    Border-top-right-radius: 15px;
+}
+
+Footer {
+    Background-color: orangered;
+    Color: #fff;
+    Text-align: center;
+    Padding: 10px 0;
+    Position: fixed;
+    Width: 100%;
+    Bottom: 0;
+}
+
+.HireDiv{
+    height: 500px !important;
+    Background-color: orangered;
+    Color: #fff;
+    Padding: 100px 0;
+    Text-align: center;
+    Margin-bottom: 0;
+}
+
+.HirePara{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.HireHead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.HireButton{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: orangered;
+    background-color: white;
+    border-radius: 30px;
+    height: 53px;
+    width:150px;
+    border: none;
+}
+
+.MyServices{
+    height: 900px !important;
+    Background-color: orangered;
+    Color: #fff;
+    Padding: 100px 0;
+    Text-align: center;
+    Margin-bottom: 0;
+}
+
+.SerHead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+.SerPara{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.MainSer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MainSer2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+/*.ContactForm {
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    /*Height: 100vh;*/
+/*}*/
+
+.ContactImage{
+    /*Margin: 10px;*/
+    width: 400px;
+    height: 400px;
+    background-color: orangered;
+}
+
+.ContactForm2 {
+    /*Margin: 10px;*/
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.ButtonNav{
+    border: white;
+}
+
+.ButtonNav:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.WorkDiv1{
+    display: flex;
+    height: 300px;
+    background-color: orangered;
+    justify-content: space-evenly;
+}
+
+.WorkDiv2{
+    display: flex;
+    height: 280px;
+    background-color: orangered;
+    justify-content: space-evenly;
+}
+
+.WorkHead{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+/*-------------------------------------------For Tablet Responsiveness---------------------------------------*/
+@media (max-width: 768px) 
+{
+    .navbar-brand {
+        Font-size: 20px;
+    }
+
+    .navbar-nav a {
+        Font-size: 16px;
+    }
+
+    .jumbotron {
+        Padding: 80px 0;
+    }
+
+    .container {
+        Padding: 40px;
+    }
+}
+
+/*-------------------------------------------For Mobile Responsiveness---------------------------------------*/
+@media (max-width: 576px) 
+{
+    .navbar {
+        Padding: 10px;
+    }
+
+    .navbar-brand {
+        Font-size: 18px;
+    }
+
+    .navbar-nav a {
+        Font-size: 14px;
+    }
+
+    .jumbotron {
+        Padding: 60px 0;
+    }
+
+    .container {
+        Padding: 20px;
+    }
+}
